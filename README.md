@@ -10,7 +10,7 @@
 ## Running 
 
 - **If On Windows** Run The SimpleCalculator In Target Release Or Download Release
-- **If On Linux** Clone Using Bash Command Below And Build
+- **If On Linux** Clone Using Bash Command Below And Build Must Have Rust Installed
   
 
 ### Installing
