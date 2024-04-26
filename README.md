@@ -9,12 +9,9 @@
 
 ## Running 
 
-- **If On Windows** Run The SimpleCalculator In Target Release
-- **If On Linux** Clone Using
+- **If On Windows** Run The SimpleCalculator In Target Release Or Download Release
+- **If On Linux** Clone Using Bash Command Below And Build
   
-```bash
-git clone https://github.com/Retroboi64/Simple-Calculator-In-Rust.git
-cd Simple-Calculator-In-Rust
 
 ### Installing
 
