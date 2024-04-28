@@ -3,7 +3,7 @@ use std::io;
 fn main() {
     println!("Simple Calculator in Rust - Retroboi64 \n");
 
-    loop {
+    loop { // Main Loop
         println!("Pick 1-4: \n");
         println!("1. Adding");
         println!("2. Subtracting");
@@ -45,7 +45,7 @@ fn main() {
             println!("\n {x} + {y} = {result} \n");
         }
 
-        if pick_option == "2" {
+        if pick_option == "2" { // Subtracting
             let mut x = String::new();
             let mut y = String::new();
             println!("First Number: ");
@@ -74,7 +74,7 @@ fn main() {
 
         }
 
-        if pick_option == "3" {
+        if pick_option == "3" { // Multiple
             let mut x = String::new();
             let mut y = String::new();
             println!("First Number: ");
@@ -102,7 +102,7 @@ fn main() {
             println!("\n {x} * {y} = {result} \n");
         }
 
-        if pick_option == "4"{
+        if pick_option == "4"{ // Division 
             let mut x = String::new();
             let mut y = String::new();
             println!("First Number: ");
@@ -131,7 +131,7 @@ fn main() {
 
         }
 
-        if pick_option == "5"{
+        if pick_option == "5"{ // Info
             println!("\n");
             println!(r#"
             Info:
