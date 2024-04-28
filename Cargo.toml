@@ -1,4 +1,12 @@
 [package]
+authors = ["Retroboi64"]
+license = "MIT"
+description = "A simple but fast calculator"
+readme = "README.md"
+homepage = "https://github.com/Retroboi64/Simple-Calculator-In-Rust"
+repository = "https://github.com/Retroboi64/Simple-Calculator-In-Rust"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 name = "simple_calculator"
 version = "0.2.0"
 edition = "2021"
