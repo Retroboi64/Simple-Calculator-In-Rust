@@ -8,7 +8,8 @@ fn main() {
         println!("1. Adding");
         println!("2. Subtracting");
         println!("3. multiplication");
-        println!("4. division \n");
+        println!("4. division");
+        println!("5. Info\n");
         println!("Pick: ");
         let mut pick_option = String::new();
         io::stdin().read_line(&mut pick_option).expect("Failed");
@@ -40,6 +41,7 @@ fn main() {
             };
 
             let result = x + y;
+            println!(" Problem: ");
             println!("\n {x} + {y} = {result} \n");
         }
 
@@ -126,6 +128,19 @@ fn main() {
 
             let result = x / y;
             println!("\n {x} / {y} = {result} \n");
+
+        }
+
+        if pick_option == "5"{
+            println!("\n");
+            println!(r#"
+            Info:
+
+            version: 0.2
+
+            This was made by Retroboi64 https://github.com/Retroboi64
+            "#);
+            println!("\n");
 
         }
 
