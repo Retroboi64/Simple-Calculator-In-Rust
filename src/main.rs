@@ -43,6 +43,22 @@ fn main() {
             let result = x + y;
             println!(" Problem: ");
             println!("\n {x} + {y} = {result} \n");
+
+            let mut stop = String::new();
+            println!("Stop No/Yes? ");
+            io::stdin().read_line(&mut stop).expect("Error");
+            let stop = stop.trim();
+
+            if stop == "yes" {
+                break;
+            }
+            else {
+                if stop == "no" {
+                    // Back to main loop
+                }
+                println!("\n{stop} is not an option\n");
+                break;
+            }
         }
 
         if pick_option == "2" { // Subtracting
@@ -72,6 +88,22 @@ fn main() {
             let result = x - y;
             println!("\n {x} - {y} = {result} \n");
 
+            let mut stop = String::new();
+            println!("Stop No/Yes? ");
+            io::stdin().read_line(&mut stop).expect("Error");
+            let stop = stop.trim();
+
+            if stop == "yes" {
+                break;
+            }
+            else {
+                if stop == "no" {
+                    // Back to main loop
+                }
+                println!("\n{stop} is not an option\n");
+                break;
+            }
+
         }
 
         if pick_option == "3" { // Multiple
@@ -100,6 +132,22 @@ fn main() {
 
             let result = x * y;
             println!("\n {x} * {y} = {result} \n");
+
+            let mut stop = String::new();
+            println!("Stop No/Yes? ");
+            io::stdin().read_line(&mut stop).expect("Error");
+            let stop = stop.trim();
+
+            if stop == "yes" {
+                break;
+            }
+            else {
+                if stop == "no" {
+                    // Back to main loop
+                }
+                println!("\n{stop} is not an option\n");
+                break;
+            }
         }
 
         if pick_option == "4"{ // Division 
@@ -129,18 +177,36 @@ fn main() {
             let result = x / y;
             println!("\n {x} / {y} = {result} \n");
 
+            let mut stop = String::new();
+            println!("Stop No/Yes? ");
+            io::stdin().read_line(&mut stop).expect("Error");
+            let stop = stop.trim();
+
+            if stop == "yes" {
+                break;
+            }
+            else {
+                if stop == "no" {
+                    // Back to main loop
+                }
+                println!("\n{stop} is not an option\n");
+                break;
+            }
         }
 
         if pick_option == "5"{ // Info
             println!("\n");
             println!(r#"
-            Info:
-
-            version: 0.2
-
-            This was made by Retroboi64 https://github.com/Retroboi64
+  ____________________________________________________________
+ | Info:                                                      |
+ |                                                            |
+ | version: 0.2                                               |
+ |                                                            |
+ | This was made by Retroboi64 https://github.com/Retroboi64  |
+ |____________________________________________________________|
             "#);
             println!("\n");
+
 
         }
 
