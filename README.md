@@ -1,4 +1,4 @@
-# Simple Calculator
+# Simple But Fast Calculator
  My First Program In Rust
 
 ## Features
