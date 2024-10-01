@@ -7,8 +7,8 @@ fn main() {
         println!("Pick 1-4: \n");
         println!("1. Adding");
         println!("2. Subtracting");
-        println!("3. multiplication");
-        println!("4. division");
+        println!("3. Multiplication");
+        println!("4. Division");
         println!("5. Info\n");
         println!("Pick: ");
         let mut pick_option = String::new();
@@ -200,7 +200,7 @@ fn main() {
   ____________________________________________________________
  | Info:                                                      |
  |                                                            |
- | version: 0.2                                               |
+ | V.0.2                                               |
  |                                                            |
  | This was made by Retroboi64 https://github.com/Retroboi64  |
  |____________________________________________________________|
